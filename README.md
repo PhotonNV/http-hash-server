@@ -13,7 +13,7 @@ PORT= "5000"
 ### Загрузка файлов
 Загрузка файла осуществляется методом POST, пример curl запроса:
 ```bash
-curl -v -H 'Content-Type: application/octet-stream' -X PUT --data-binary @/file/to/load  localhost:5000
+curl -v -H 'Content-Type: application/octet-stream' -X POST --data-binary @/file/to/load  localhost:5000
 ```
 В ответ сервер выдаёт хэш сумму файла, в заголовке ответа, по которой к нему в дальнейшем можно обращаться
 ```bash
