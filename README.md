@@ -43,7 +43,7 @@ curl -v -X 'DELETE' localhost:5000/db1d860731f285487ec459c53924ab93
 ```bash
 docker build --tag http-server-docker .
 ```
-После оеончания сборки образа запустите контейнер заменив /home/user/store/
+После окончания сборки образа запустите контейнер заменив /home/user/store/
 на путь к папке на вашем ПК
 
 ```bash
